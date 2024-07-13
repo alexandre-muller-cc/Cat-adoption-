@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Document</title>
+    <link rel="stylesheet" href="Style-Project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <!-- Name of the adoptions service and a logo/picture, click on the picture should get us to the home page  -->
+        <header>
+            <img id="logo" src="Images/Logo.png" alt="Logo of the company" href="Home.html">
+            <h1>Paws & Whiskers Adoption </h1> 
+        </header>
+        <div class="container1"> <!-- Container  -->
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home Page</a></li>
+                    <li><a href="Browse Available Pets.html">Browse Available Pets</a></li>
+                    <li><a href="Find a dogcat.html">Find a dog/cat</a></li>
+                    <li><a href="Dog care.html">Dog Care</a></li>
+                    <li><a href="Cat Care.html">Cat Care</a></li>
+                    <li><a href="Have a pet to give away.html">Have a pet to give away</a></li>
+                    <li><a href="Contactus.html">Contact us</a></li>  
+                </ul>
+            </nav>
+            <div class="central"> 
+                <form>
+                    <h2> Find the pet of your dream </h2>
+                    <h3>Please enter the specifity of your research </h3>
+                    <div>
+                        <label>Type: </label>
+                        <input type="radio" name="Cat" id="Cat">
+                        <label for="Cat">Cat</label>
+                        <input type="radio" name="Cat" id="Dog">
+                        <label for="Dog">Dog</label>
+                    </div>
+                    
+                    <div>
+                        <label for="Breed">Breed:</label>
+                        <input type="text" size=10px name="Breed" id="Breed">
+                        <input type="radio" name="Breed" id="Breed">
+                        <label for="Breed">Does not matter</label>
+                    </div>
+                    
+                    <div>
+                        <label>Desire Age : </label>
+                    
+                        <input type="range" min="0" max="12" oninput="rangevalue.value=value"/>
+                        <output id="rangevalue">1</output>
+                    </div>
+                
+                    <div>
+                        <input type="radio" name="gender" id="Cat">
+                        <label for="Cat">Cat</label>
+                        <input type="radio" name="gender" id="Dog">
+                        <label for="Dog">Dog</label>
+                        <input type="radio" name="gender" id="Doesnotmatter">
+                        <label for="Doesnotmatter">Does not matter</label>
+                    </div>
+                    <div>
+                
+                    <input type="checkbox" name="along" id="Cat">
+                    <label for="Cat">Cat</label>
+                    <input type="checkbox" name="along2" id="Dog">
+                    <label for="Dog">Dog</label>
+                    <input type="checkbox" name="along3" id="Dog">
+                    <label for="Dog">Children</label>
+                    </div>
+                    <div>
+                    <button type="submit" value="Submit">Submit</button>
+                    <button type="reset" value="Reset">Reset</button>
+                </div>
+                </form>
+
+            </div>
+        </div>
+        <footer>
+            <br>
+            <a>Privary/Disclamer Statement</a>
+        </footer>
+
+    </div>
+<body>
+
+
+</html>
