@@ -88,10 +88,12 @@ input[type="range"] {
  .central {
     display:flex;
     padding-left:20px;
+    padding-bottom:20px;
     margin-top:0px;
     flex-direction:column;
     /* border:solid yellow 2px; */
     flex:7;
+    
  }
  .central form {
     margin-top:0px;
@@ -99,7 +101,7 @@ input[type="range"] {
     flex-direction:column;
     justify-content:space-between;
     /* border: solid 10px purple; */
-    height:80%;
+    height:100%;
  }
 
 
@@ -111,6 +113,7 @@ input[type="range"] {
 
  footer {
     height:150px;
+    border:solid white 2px;
  }
 
  a {
@@ -122,4 +125,9 @@ input[type="range"] {
  }
  button,input {
     color:black;
+ }
+
+textarea {
+    color:black;
+
  }
