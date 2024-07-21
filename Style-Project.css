@@ -3,6 +3,34 @@
     color:white;
 }
 
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 150px;
+}
+
+header a {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex; 
+    align-items: center; 
+
+
+}
+ header img{
+    width: 100%; 
+    height: auto; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1{
+    flex:4;
+}
 
 body {
     padding:90px;
@@ -13,22 +41,10 @@ body>div {
     /* border: solid rgba(183, 189, 190, 0.984) 1px; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
     
-
-
-#logo {
-    width:10%;
-}
-
-header {
-    display:flex;
-    justify-content:start;
-    align-items:center;
-}
-
 .container1 {
     display:flex;
     justify-content:start;
-    border-top:solid grey 2px;
+    border-top:solid grey 1px;
     height:600px;
     align-items:top;
 
@@ -39,7 +55,7 @@ nav {
     /* border:solid yellow 10px; */
     box-sizing: border-box;
     margin:0px;
-    border-right:solid black 1px;
+    border-right:solid grey 1px;
     flex:1;
 }
 
@@ -63,9 +79,10 @@ nav ul li {
     padding-left:10px;
 }
 
-li:hover,nav a:hover {
+nav ul li:hover,nav a:hover {
     color:white;
     background-color:#9DB2BF; /* Color changes to red on hover */}
+    
 
 
 
@@ -113,10 +130,11 @@ input[type="range"] {
 
  footer {
     height:150px;
-    border:solid white 2px;
+    border-top:solid grey 1px;
+    background-color:#59677b;
  }
 
- a {
+ nav a {
     display:flex;
     /* border:solid red 1px; */
     width:100%;
@@ -131,3 +149,15 @@ textarea {
     color:black;
 
  }
+ .central img {
+    width:100px;
+   
+ }
+
+ footer a{
+    padding-left:10px;
+ }
+
+ ol>li {
+    margin-bottom: 1em; /* Adjust the value as needed */
+}
