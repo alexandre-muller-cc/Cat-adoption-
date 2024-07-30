@@ -16,6 +16,7 @@
         <header>
             <a href="Home.html"><img id="logo" src="Images/Logo.png" alt="Logo of the company"></a>
             <h1>Paws & Whiskers Adoption </h1> 
+            <p id="date"></p>
         </header>
         <div class="container1"> <!-- Container  -->
             <nav>
@@ -34,7 +35,7 @@
                     <h2> Find the pet of your dream </h2>
                     <h3>Please enter the specifity of your research </h3>
                     <div>
-                        <label>Type: </label>
+                        <label>Prefered Animal:</label>
                         <input type="radio" name="Cat" id="Cat1">
                         <label for="Cat1">Cat</label>
                         <input type="radio" name="Cat" id="Dog1">
@@ -56,6 +57,7 @@
                     </div>
                 
                     <div>
+                        <label>Prefered Gender:</label>
                         <input type="radio" name="gender" id="Cat2">
                         <label for="Cat2">Cat</label>
                         <input type="radio" name="gender" id="Dog2">
@@ -64,18 +66,18 @@
                         <label for="Doesnotmatter">Does not matter</label>
                     </div>
                     <div>
-                
-                    <input type="checkbox" name="along" id="Cat3">
-                    <label for="Cat3">Cat</label>
-                    <input type="checkbox" name="along2" id="Dog3">
-                    <label for="Dog3">Dog</label>
-                    <input type="checkbox" name="along3" id="Children">
-                    <label for="Children">Children</label>
+                        <label>Get along with:</label>
+                        <input type="checkbox" name="along" id="Cat3">
+                        <label for="Cat3">Cat</label>
+                        <input type="checkbox" name="along2" id="Dog3">
+                        <label for="Dog3">Dog</label>
+                        <input type="checkbox" name="along3" id="Children">
+                        <label for="Children">Childrens</label>
                     </div>
                     <div>
-                    <button type="submit" value="Submit">Submit</button>
-                    <button type="reset" value="Reset">Reset</button>
-                </div>
+                        <button id ="submit type="submit" value="Submit">Submit</button>
+                        <button type="reset" value="Reset">Reset</button>
+                    </div>
                 </form>
 
             </div>
@@ -86,6 +88,7 @@
         </footer>
 
     </div>
+    <script src="index.js"></script>
 </body>
 
 

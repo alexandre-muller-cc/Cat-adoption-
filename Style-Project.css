@@ -45,7 +45,7 @@ body>div {
     display:flex;
     justify-content:start;
     border-top:solid grey 1px;
-    height:600px;
+    height:700px;
     align-items:top;
 
 }
@@ -104,7 +104,7 @@ input[type="range"] {
 
  .central {
     display:flex;
-    padding-left:20px;
+    /* padding-left:20px; */
     padding-bottom:20px;
     margin-top:0px;
     flex-direction:column;
@@ -150,7 +150,10 @@ textarea {
 
  }
  .central img {
-    width:100px;
+    width:250px;
+    border:white 5px solid;
+    margin:0px;
+    padding:0px;
    
  }
 
@@ -161,3 +164,76 @@ textarea {
  ol>li {
     margin-bottom: 1em; /* Adjust the value as needed */
 }
+
+.centralimg {
+    display:flex;
+    padding:0px;
+    margin:0px;
+    justify-content:space-around;
+    /* border:solid red 3px; */
+    height:100%;
+}
+.innerImg {
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    /* border:solid black 10px; */}
+
+
+.innerImg img {
+
+        opacity:0.7;
+        transition: 1s ease;}
+        
+    
+.innerImg img:hover{
+    opacity:1;
+    transition: 1s ease;
+    }
+    
+    
+
+
+.innerImg p {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+
+    
+}
+
+.innerImg button {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+
+.navigation {
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing: border-box;
+    
+    
+}
+#next,#previous {
+    margin:10px;
+    
+    
+    border-radius: 50%;
+    border: solid white 1px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #c3c3c3;
+    color: white;
+
+    
+}
+#next:hover,#previous:hover  {
+    background-color: #ddd;
+    color: black;}
