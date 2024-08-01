@@ -17,6 +17,7 @@
         <header>
             <a href="Home.html"><img id="logo" src="Images/Logo.png" alt="Logo of the company"></a>
             <h1>Paws & Whiskers Adoption </h1> 
+            <p id="date"></p>
         </header>
         <div class="container1"> <!-- Container  -->
             <nav>
@@ -31,7 +32,7 @@
                 </ul>
             </nav>
         
-            <div class="central"> 
+            <div class="central" id="haveaPetToGiveAway"> 
                 <form>
                     <h2> Have a pet to give Away ? </h2>
                     <h3>Please enter the specifity of your pet !</h3>
@@ -56,18 +57,18 @@
                     </div>
                     <div>
                         <label>The gender of my animal is: </label>
-                        <input type="checkbox" name="gender1" id="Female">
+                        <input type="radio" name="gender" id="Female">
                         <label for="Female">Female</label>
-                        <input type="checkbox" name="gender2" id="Male">
+                        <input type="radio" name="gender" id="Male">
                         <label for="Male">Male</label>
                     </div>
                     <br>
                     <div>
                         <label>My animal goes along with: </label>
-                        <input type="checkbox" name="gender1" id="Cat">
-                        <label for="Cat">Cat</label>
-                        <input type="checkbox" name="gender2" id="Dog">
-                        <label for="Dog">Dog</label>
+                        <input type="checkbox" name="gender1" id="Cat2">
+                        <label for="Cat2">Cat</label>
+                        <input type="checkbox" name="gender2" id="Dog2">
+                        <label for="Dog2">Dog</label>
                         <input type="checkbox" name="gender2" id="Baby">
                         <label for="Baby">Children</label>
                     </div>
@@ -75,13 +76,26 @@
                     <div>
                         <label>Please enter any additional informations you would like to let us know:</label>
                         <br>
-                        <textarea id="comment" name="comment" rows="4" cols="100"></textarea>
+                        <input type="text" name="name1" id="comment">
+                        <br><br>
+
+                        <label>Please provide your Last Name and FirstName</label>
+                        <br>
+                        <input type="text" name="name1" id="firstName">
+                        <input type="text" name="name2" id="lastName">
+                        <br><br>
+
+                        <label>Please enter your email</label>
+                        <br>
+                        <input type="text" name="email" id="email">
+
+
                     </div>
 
                     <br>
                     <div>
-                    <button type="submit" value="Submit">Submit</button>
-                    <button type="reset" value="Reset">Reset</button>
+                    <button type="button" value="Submit" id="submit">Submit</button>
+                    <button type="button" value="Reset" id="reset">Reset</button>
                     </div>
                 
                 </form>
@@ -95,8 +109,9 @@
     </footer>
 
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
 
-
-<!--Veryfication html done -->
+<!--Check Done-->

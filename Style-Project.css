@@ -237,3 +237,18 @@ textarea {
 #next:hover,#previous:hover  {
     background-color: #ddd;
     color: black;}
+
+#comment {
+    width:50%;
+    height:40px;
+}
+
+#firstName,#lastName {
+    height:20px;
+    width:10%;
+}
+
+#email{
+    height:20px;
+    width:30%;
+}
