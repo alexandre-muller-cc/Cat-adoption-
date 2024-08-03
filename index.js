@@ -49,8 +49,8 @@ if (document.getElementById("findDogForm"))
     const Breed1 = document.getElementById("Breed1");
     const Breed2 = document.getElementById("Breed2");
     const rangevalue = document.getElementById("rangevalue");
-    const Cat2 = document.getElementById("Cat2");
-    const Dog2 = document.getElementById("Dog2");
+    const Female = document.getElementById("Female");
+    const Male = document.getElementById("Male");
     const doesnotmatter = document.getElementById("Doesnotmatter");
     const Cat3 = document.getElementById("Cat3");
     const Dog3 = document.getElementById("Dog3");
@@ -70,7 +70,7 @@ if (document.getElementById("findDogForm"))
         else if (rangevalue.value==0){
             window.alert("Please enter all the fields values");
         }
-        else if (!Cat2.checked && !Dog2.checked && !doesnotmatter.checked ){
+        else if (!Female.checked && !Male.checked && !doesnotmatter.checked ){
             window.alert("Please enter all the fields values");
         }
         
