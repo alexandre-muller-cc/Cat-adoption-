@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Document</title>
+    <link rel="stylesheet" href="Style-Project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <!-- Use for the background -->
+        <!-- Name of the adoptions service and a logo/picture, click on the picture should get us to the home page  -->
+        <%- include('partials/header.ejs'); %>
+        <div class="container1"> <!-- Container  -->
+            <nav>
+                <ul>
+                    <li><a href="/">Home Page</a></li>
+                    <li><a href="Browse_Available_Pets">Browse Available Pets</a></li>
+                    <li><a href="Find_dogcat">Find a dog/cat</a></li>
+                    <li><a href=Dog_Care>Dog Care</a></li>
+                    <li><a href="Cat_Care">Cat Care</a></li>
+                    <li><a href="Have_pet_give_away">Have a pet to give away</a></li>
+                    <li><a href="createAccount">Create an account</a></li>
+                    <li><a href="Contactus">Contact us</a></li> 
+                </ul>
+            </nav>
+        
+            <div class=central> 
+                <!-- Content Area  -->
+                
+                <h2> Contact </h2>
+                <p>Alexandre Muller</p>
+                <p>27880316 <br> alexandre.ccmuller@gmail.com</p>
+            </div>
+        </div>
+        <%- include('partials/footer.ejs'); %>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+
+</html>
+
+<!--Checked Done -->

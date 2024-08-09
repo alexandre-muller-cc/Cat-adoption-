@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "express-ssi": "^2.0.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

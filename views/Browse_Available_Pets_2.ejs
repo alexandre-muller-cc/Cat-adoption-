@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Document</title>
+    <link rel="stylesheet" href="Style-Project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+    <!-- Name of the adoptions service and a logo/picture, click on the picture should get us to the home page  -->
+    <%- include('partials/header.ejs'); %>
+        <div class="container1"> <!-- Container  -->
+            <nav>
+                <ul>
+                    <li><a href="/">Home Page</a></li>
+                    <li><a href="Browse_Available_Pets">Browse Available Pets</a></li>
+                    <li><a href="Find_dogcat">Find a dog/cat</a></li>
+                    <li><a href=Dog_Care>Dog Care</a></li>
+                    <li><a href="Cat_Care">Cat Care</a></li>
+                    <li><a href="Have_pet_give_away">Have a pet to give away</a></li>
+                    <li><a href="createAccount">Create an account</a></li>
+                    <li><a href="Contactus">Contact us</a></li>  
+                </ul>
+            </nav>
+            <div class="central"> 
+
+
+                <div class = centralimg id="centralimg">
+                    <div class="innerImg"> 
+                        <img src = "/Images/chien1.jpg" alt="dog1">
+                        <p><strong>Nala</strong><br> Age: 7 Gender: Female <br>Breed: None <br>Goes Along with kid</p>
+                        <button> Interested</button>
+
+                    </div>
+                    <div class="innerImg"> 
+                        <img src = "/Images/chien2.jpg" alt="dog2">
+                        <p><strong>Tom</strong><br> Age: 10 Gender: Female <br>Breed: None <br>Goes Along with kid</p>
+                        <button> Interested</button>
+                    </div>
+                    <div class="innerImg"> 
+                        <img src = "/Images/chien3.jpg" alt="dog3">
+                        <p><strong>Piper</strong><br> Age: 7 Gender: Female <br>Breed: None <br>Goes Along with kid</p>
+                        <button> Interested</button>
+                    </div>
+
+
+                </div>
+                <div class  = "navigation">      
+                    <a id = "previous" href="previous" > &lt; </a>          
+                    <a id ="next" href="next"> &gt;  </a> 
+                </div>
+               
+
+            </div>
+        </div>
+    </div>
+    <%- include('partials/footer.ejs'); %>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<!--Check Done -->
